@@ -1,0 +1,14 @@
+$kind: http-request
+name: Update User
+url: http://localhost:8080/api/users/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"firstName\": \"John Updated\",\r
+
+    \  \"lastName\": \"Doe Updated\"\r
+
+    }"
+order: 3303484049561126

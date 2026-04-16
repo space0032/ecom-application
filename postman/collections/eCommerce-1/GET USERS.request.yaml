@@ -1,4 +1,5 @@
 $kind: http-request
+name: GET USERS
 url: http://localhost:8080/api/users
 method: GET
 order: 2558021708682219

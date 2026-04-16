@@ -6,7 +6,7 @@ import java.util.List;
 
 @Service
 public class UserService {
-    private List<User> userList = new ArrayList<>();
+    private final List<User> userList = new ArrayList<>();
     private long nextId = 1L;
 
 

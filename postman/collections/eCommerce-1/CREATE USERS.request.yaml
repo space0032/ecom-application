@@ -14,5 +14,19 @@ body:
 
     \  \"phone\": \"123456789\",\r
 
+    \  \"address\": {\r
+
+    \    \"street\": \"123 Main St\",\r
+
+    \    \"city\": \"Ney York\",\r
+
+    \    \"state\": \"CA\",\r
+
+    \    \"country\": \"USA\",\r
+
+    \    \"zipCode\": \"12345\"\r
+
+    \  }\r
+
     }"
 order: 3250107065638362

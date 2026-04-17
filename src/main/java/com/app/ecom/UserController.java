@@ -9,10 +9,13 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
+//@RequestMapping("/api/users")
     public class UserController {
+
         private final UserService userService;
 
     @GetMapping("/api/users")
+    //@RequestMapping(value = "/api/users", method = RequestMethod.GET)         Method #2
     public ResponseEntity<List<User>> getAllUsers(){
         return new ResponseEntity<>(userService.fetchAllUsers(), HttpStatus.OK);
 //METHOD #2        return ResponseEntity.ok(userService.fetchAllUsers());

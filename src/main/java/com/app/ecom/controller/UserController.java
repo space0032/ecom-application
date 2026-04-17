@@ -41,8 +41,8 @@ import java.util.List;
     }
     @PutMapping("/api/users/{id}")
     public ResponseEntity<String> updateUser(@PathVariable Long id,
-                                             @RequestBody User updatedUser){
-        boolean updated = userService.updateUser(id, updatedUser);
+                                             @RequestBody UserRequest updatedUserRequest){
+        boolean updated = userService.updateUser(id, updatedUserRequest);
         if (updated)
             return ResponseEntity.ok("User Updated Succesfully");
         return ResponseEntity.notFound().build();

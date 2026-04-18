@@ -1,0 +1,22 @@
+$kind: http-request
+name: Update Product
+url: http://localhost:8080/api/products
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\" : \"iPhone 15 Pro Updated\",\r
+
+    \    \"price\" : \"1099.99\",\r
+
+    \    \"description\" : \"Letest iPhone model with A16 Bionic chip Updated\",\r
+
+    \    \"stockQuantity\" : \"100\",\r
+
+    \    \"category\" : \"Electronics\",\r
+
+    \    \"imageUrl\" : \"http://example.com/iphone15pro.jpg\"\r
+
+    }"
+order: 4029097330545047

@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get All Products
+url: http://localhost:8080/api/products
+method: GET
+order: 4394671499732097

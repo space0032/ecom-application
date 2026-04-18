@@ -1,14 +1,14 @@
 $kind: http-request
-name: CREATE USERS
-url: http://localhost:8080/api/users
-method: POST
+name: Update User
+url: http://localhost:8080/api/users/1
+method: PUT
 body:
   type: json
   content: "{\r
 
-    \  \"firstName\": \"John\",\r
+    \  \"firstName\": \"John Updated\",\r
 
-    \  \"lastName\": \"Doe\",\r
+    \  \"lastName\": \"Doe Updated\",\r
 
     \  \"email\": \"john@abc.com\",\r
 
@@ -29,4 +29,4 @@ body:
     \  }\r
 
     }"
-order: 3250107065638362
+order: 3849869814826448
